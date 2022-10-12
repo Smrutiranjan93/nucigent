@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+body {
+
+    font-family:sans-serif;
+}
+p{
+    transition: width 2s linear 1s;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #030F27;
+    line-height: 40px;
+
+  }
+  ol ,li{
+    transition: width 2s linear 1s;
+    font-size: 20px;
+    font-family: sans-serif;
+    color:#030F27;
+    line-height: 40px;
+  }
+  .main{
+    margin: 8px;
+  }
+  .grow img{
+    transition: 1s ease;
+    }
+    
+    .grow img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }

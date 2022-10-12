@@ -1,0 +1,165 @@
+<!-- 
+<section class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="#!"><img src="/assets/logo.jpg" alt=""> </a>
+    </div>
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+      <ul class="nav-list">
+        <li>
+          <a href="#!">Home</a>
+        </li>
+        <li>
+          <a routerLink="/about">About</a>
+        </li>
+        <li>
+          <a href="#!">Services</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a routerLink="/software">Software Devlopment</a>
+            </li>
+            <li>
+              <a routerLink="/webdevelopment">Web Development</a>
+            </li>
+            <li>
+              <a routerLink="/systemintegration">System Integration</a>
+            </li>
+            <li>
+              <a routerLink="/infrastructure">Infrastructure Suport</a>
+            </li>
+            <li>
+              <a routerLink="/requirement">Requirements identifications and analysis</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a routerLink="/team">Team</a>
+        </li>
+       
+        <li>
+          <a href="#!">Technologies</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a  routerLink="/java">Java</a>
+            </li>
+            <li>
+              <a routerLink="/ai">AI</a>
+            </li>
+            <li>
+              <a routerLink="/.net">.NET</a>
+            </li>
+            <li>
+              <a routerLink="/angular">ANGULAR</a>
+            </li>
+            <li>
+              <a routerLink="/mobile">MOBILE</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a routerLink="/project">Portfolio</a>
+        </li>
+        <li>
+          <a routerLink="/cservices">Career</a>
+        </li>
+        <li>
+          <a routerLink="/contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section> -->
+
+
+   <!-- Nav Bar Start -->
+   <div class="nav-bar">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+          <a href="#!"><img src="/assets/logo.jpg" alt="" height="70px" width="150px" style="    margin: -26px 0px -24px -15px;
+          "> </a>
+            <a href="index.html" class="navbar-brand" style="color:red ;">MENU</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a routerLink="/about" class="nav-item nav-link">About</a>
+                  
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu">
+                            <a routerLink="/software" class="dropdown-item">Software Devlopment</a>
+                            <a routerLink="/webdevelopment" class="dropdown-item">Web Development</a>
+                            <a routerLink="/systemintegration" class="dropdown-item">System Integration</a>
+                            <a routerLink="/infrastructure" class="dropdown-item">Infrastructure Suport</a>
+                            <a routerLink="/requirement" class="dropdown-item">Requirements Identifications and Analysis</a>
+                        </div>
+                    </div>
+                    <!-- <div class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Profile</a>
+                      <div class="dropdown-menu">
+                        <a routerLink="/team" class="dropdown-item">Team</a>
+                        <a routerLink="/management" class="dropdown-item">Management</a>
+                          
+                      </div> -->
+                      
+                    <!-- </div> -->
+                    <a routerLink="/team"class="nav-item nav-link">Team</a>
+                    <!-- <a routerLink="/team1" class="nav-item nav-link">Team</a> -->
+                    <div class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Technology</a>
+                      <div class="dropdown-menu">
+                          <a routerLink="/java" class="dropdown-item">Java</a>
+                          <a routerLink="/ai" class="dropdown-item">AI</a>
+                          <a routerLink="/.net" class="dropdown-item">.Net</a>
+                          <a routerLink="/angular" class="dropdown-item">Angular</a>
+                          <a  routerLink="/mobile" class="dropdown-item">Mobile</a>
+                      </div>
+                  </div>
+                    <a routerLink="/project"class="nav-item nav-link">Portfolio</a>
+                    <a routerLink="/cservices" class="nav-item nav-link">Career</a>
+                    <a routerLink="/contact" class="nav-item nav-link">Contact</a>
+                    <!-- <a routerLink="/pothi" class="nav-item nav-link">pothi</a> -->
+                  
+                </div>
+               
+            </div>
+        </nav>
+    </div>
+</div>
+
+<script>
+  var swiper = new Swiper(".slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 2,
+        },
+        950: {
+            slidesPerView: 3,
+        },
+    },
+  });
+</script>
+

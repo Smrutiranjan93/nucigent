@@ -1,0 +1,35 @@
+.main{
+    background-color: #ECF6FE;
+}
+.para1{
+    transition: width 2s linear 1s;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #030F27;
+    line-height: 40px;
+}
+p{
+    transition: width 2s linear 1s;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #030F27;
+    line-height: 40px;
+}
+.row li{
+    color: #030F27;
+
+}
+.row .list{
+    font-size: 20px;
+    line-height: 3rem;
+}
+.grow img{
+    transition: 1s ease;
+    }
+    
+    .grow img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }

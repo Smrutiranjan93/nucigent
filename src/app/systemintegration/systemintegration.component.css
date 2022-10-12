@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+.content div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ECF6FE;
+}
+  p{
+    transition: width 2s linear 1s;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #030F27;
+    line-height: 40px;
+
+  }
+  .row li{
+    transition: width 2s linear 1s;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(82, 82, 254);
+    line-height: 40px;
+  }
+  .row1{
+    justify-content: space-between;
+    /* padding: 30rem; */
+  }
+  .mid3para{
+    transition: width 2s linear 1s;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(82, 82, 254);
+    line-height: 40px;
+  }
+  .mid4para{
+    transition: width 2s linear 1s;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(82, 82, 254);
+    line-height: 40px;
+  }
+  .image2 img{
+    width: 800px;
+  }
+  .grow img{
+    transition: 1s ease;
+    }
+    
+    .grow img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
