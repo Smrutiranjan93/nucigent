@@ -9,7 +9,7 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { SoftwaredevelopmentComponent } from './softwaredevelopment/softwaredevelopment.component';
 import { WebdevelopmentComponent } from './webdevelopment/webdevelopment.component';
-import { PythonComponent } from './python/python.component';
+import { PythonComponent } from './cservices/python/python.component';
 import { TeamComponent } from './team/team.component';
 import { Bodycard1Component } from './bodycard1/bodycard1.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
@@ -20,13 +20,14 @@ import { NetComponent } from './net/net.component';
 import { AngularComponent } from './angular/angular.component';
 import { MobileComponent } from './mobile/mobile.component';
 import { PothiComponent } from './pothi/pothi.component';
-import { JavarequireComponent } from './javarequire/javarequire.component';
-import { AngularrequirementComponent } from './angularrequirement/angularrequirement.component';
+import { JavarequireComponent } from './cservices/javarequire/javarequire.component';
+import { AngularrequirementComponent } from './cservices/angularrequirement/angularrequirement.component';
 import { ManagementComponent } from './management/management.component';
-import { ReactComponent } from './react/react.component';
-import { NetdevloperComponent } from './netdevloper/netdevloper.component';
-import { FlutterComponent } from './flutter/flutter.component';
+import { ReactComponent } from './cservices/react/react.component';
+import { NetdevloperComponent } from './cservices/netdevloper/netdevloper.component';
+import { FlutterComponent } from './cservices/flutter/flutter.component';
 import { RouterModule } from '@angular/router';
+import { CservicesModule } from './cservices/cservices.module';
 // import { IsotopeModule } from 'ngx-isotope';
 
 //import {MatToolbarModule} from '@angular/material/toolbar';
@@ -65,8 +66,8 @@ import { RouterModule } from '@angular/router';
     AppRoutingModule,
     //MatToolbarModule
     // IsotopeModule
-    RouterModule
-    
+    RouterModule,
+    CservicesModule
     
   ],
   providers: [],
